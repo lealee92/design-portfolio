@@ -1,0 +1,144 @@
+body {
+  background-color: #fff7f0;
+  box-sizing: border-box;
+}
+
+/* *********** HEADER ************* */
+
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid firebrick;
+  margin: 1em 10em;
+}
+.consultation-btn {
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  min-width: 10em;
+
+  font-family: "Plus Jakarta Sans";
+  font-weight: bold;
+  margin: 0.4em;
+}
+
+.header-title {
+  font-weight: bold;
+  font-size: 38px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+.header-p {
+  color: #7a746e;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 18px;
+  margin: auto;
+  line-height: 1.5em;
+  margin-top: 1em;
+  width: 50%;
+  padding-top: 1em;
+  text-align: center;
+}
+
+/* CONTENT : IMAGES FLEXBOX GRID*/
+.images-container {
+  background-color: lightblue;
+  width: 77.8%;
+  min-width: 600px;
+  margin: 0 auto;
+}
+.header-content {
+  width: 100%;
+  border: 6px solid violet;
+}
+
+/* .graphic-design {
+  position: absolute;
+  width: 3em;
+  border: 2px solid blue;
+} */
+
+.btn-container {
+  display: flex;
+}
+.btn-left {
+  background-color: #755cde;
+  width: 5em;
+  padding: 8em;
+}
+
+.btn-center {
+  display: flex;
+  width: 5em;
+
+  padding: 8em;
+  border: 2px solid palegreen;
+}
+.ui-ux {
+  background-color: #f6a560;
+}
+
+.apps {
+  background-color: #f39e9e;
+}
+
+.illustrations {
+  background-color: #eb7565;
+}
+
+.btn-right {
+  display: flex;
+  flex-direction: column;
+  padding: 8em;
+  width: 5em;
+
+  border: 2px solid salmon;
+}
+
+.photography {
+  background-color: #61c4b7;
+}
+
+.motion-graphic {
+  background-color: #552049;
+}
+
+.design-title {
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  gap: 20px;
+}
+.ui-ux-container {
+  background-color: #f6a560;
+  width: 160px;
+  padding: 3em 1em;
+  border-radius: 10px;
+}
+
+.apps-container {
+  background-color: #f39e9e;
+  width: 160px;
+  border-radius: 10px;
+  padding: 3em 1em;
+}
+
+.footer {
+  background-color: black;
+  padding: 5em;
+  margin: 0 auto;
+  width: 4em;
+  margin-top: 2em;
+  align-items: center;
+}
