@@ -8,18 +8,25 @@ body {
 .top-header {
   display: flex;
   justify-content: space-between;
-  border: 2px solid firebrick;
-  margin: 1em 10em;
+  width: 80%;
+  margin: 0 auto;
+  padding: 0.5em;
 }
 .consultation-btn {
   background-color: black;
+  border: none;
   color: white;
   border-radius: 30px;
   min-width: 10em;
-
+  outline: inherit;
   font-family: "Plus Jakarta Sans";
   font-weight: bold;
   margin: 0.4em;
+  cursor: pointer;
+}
+
+.consultation-btn:hover {
+  background-color: #755cde;
 }
 
 .header-title {
@@ -44,94 +51,151 @@ body {
 }
 
 /* CONTENT : IMAGES FLEXBOX GRID*/
-.images-container {
-  background-color: lightblue;
-  width: 77.8%;
-  min-width: 600px;
-  margin: 0 auto;
-}
-.header-content {
+
+.menu__items {
+  display: flex;
   width: 100%;
-  border: 6px solid violet;
+  border: 2px solid hotpink;
 }
-
-/* .graphic-design {
-  position: absolute;
-  width: 3em;
-  border: 2px solid blue;
-} */
-
-.btn-container {
+.flex-items {
+  width: 33.33%;
+}
+.flex-top {
   display: flex;
 }
-.btn-left {
+
+.flex-right {
+  width: 33.33%;
+}
+.menu {
+  width: 80%;
+  max-width: 1110px;
+  margin: 1em auto;
+}
+
+.graphic-design {
+  padding: 0 0 10em 0;
+  width: 33.33%;
+  min-width: 354px;
   background-color: #755cde;
-  width: 5em;
-  padding: 8em;
+  border-radius: 10px;
+  margin: 0.5em;
 }
 
-.btn-center {
-  display: flex;
-  width: 5em;
-
-  padding: 8em;
-  border: 2px solid palegreen;
-}
 .ui-ux {
   background-color: #f6a560;
+  width: 50%;
+  padding: 0 0 5em 0;
+  position: relative;
+  border-radius: 10px;
+  margin: 0.5em;
 }
 
 .apps {
   background-color: #f39e9e;
+  width: 50%;
+  max-width: 165px;
+  min-width: 100px;
+  border-radius: 10px;
+  margin: 0.5em;
+}
+
+.illustrations,
+.photography {
+  padding: 0 0 6em 0;
+  border-radius: 10px;
+  margin: 0.5em;
 }
 
 .illustrations {
   background-color: #eb7565;
 }
 
-.btn-right {
-  display: flex;
-  flex-direction: column;
-  padding: 8em;
-  width: 5em;
-
-  border: 2px solid salmon;
-}
-
 .photography {
   background-color: #61c4b7;
+  padding: 0 0 5em 0;
+  border-radius: 10px;
+  margin: 0.5em;
 }
 
-.motion-graphic {
+.motion-graphics {
   background-color: #552049;
+  padding: 0 0 5em 0;
+  border-radius: 10px;
+  margin: 0.5em;
 }
 
-.design-title {
-  position: absolute;
+.gd-btn {
+  width: 6em;
+  left: 15em;
+  top: 1em;
+  position: relative;
+}
+
+.gd-title,
+.apps-title,
+.ui-ux-title,
+.illustrations-title,
+.photography-title,
+.motion-graphics-title {
   color: white;
-  font-size: 24px;
+  font-family: "Plus Jakarta Sans";
   font-weight: bold;
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 1.5rem;
 }
 
-.flex-container {
-  display: flex;
-  justify-content: space-between;
-  padding: 1em;
-  gap: 20px;
-}
-.ui-ux-container {
-  background-color: #f6a560;
-  width: 160px;
-  padding: 3em 1em;
-  border-radius: 10px;
+.gd-title {
+  position: relative;
+  top: 5.5em;
+  right: 3em;
 }
 
-.apps-container {
-  background-color: #f39e9e;
-  width: 160px;
-  border-radius: 10px;
-  padding: 3em 1em;
+.apps-title,
+.ui-ux-title {
+  position: relative;
+  top: 2.5em;
+  right: 2em;
+}
+
+.illustrations-title {
+  position: relative;
+  top: 2em;
+  right: 4em;
+}
+
+.photography-title {
+  position: relative;
+  top: 2em;
+  right: 6em;
+}
+
+.motion-graphics-title {
+  position: relative;
+  top: 2em;
+  right: 5em;
+}
+
+.apps-btn,
+.ui-btn {
+  position: relative;
+  top: 1em;
+  left: 5em;
+}
+.illustrations-btn {
+  position: relative;
+  top: 1em;
+  left: 12em;
+}
+
+.photography-btn {
+  position: relative;
+  top: 1em;
+  left: 10em;
+}
+.motion-graphics-btn {
+  position: relative;
+  top: 1em;
+  left: 12em;
 }
 
 .footer {
